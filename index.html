@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>For Yixin</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./type.css">
+</head>
+
+<body>
+    <div class="sky">
+        <div class="star glow one"></div>
+        <div class="star glow two"></div>
+        <div class="star glow three"></div>
+        <div class="star glow four"></div>
+        <div class="star glow five"></div>
+        <div class="star glow six"></div>
+        <div class="star glow seven"></div>
+        <div class="star glow polaris"></div>
+        <div class="moon">
+            <div class="crater crater1"></div>
+            <div class="crater crater2"></div>
+            <div class="crater crater3"></div>
+        </div>
+    </div>
+    <div id='main'></div>
+    <audio autoplay loop>
+        <source src="./audio/Robert Bonfiglio - Moon As My Heart.mp3" type="audio/mpeg">
+    </audio>
+    <!-- <embed src="./audio/Robert Bonfiglio - Moon As My Heart.mp3" width="180" height="90" loop="true" autostart="true" -->
+    <!-- hidden="true" /> -->
+
+
+    <script>
+        window.addEventListener('click', () => {
+            document.querySelector('audio').play()
+        })
+    </script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="./generateStars.js"></script>
+    <script src="./typeText.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+#main {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-family: monospace;
+  /* font-weight: bold; */
+  font-size: 1.2em;
+  /* background: rgba(0, 0, 0, 0); */
+  background-color: transparent;
+}
+
+.keyword {
+  /* color: #0000ff; */
+  color: #c5b2ff;
+}
+
+.class {
+  /* color: #269fa9; */
+  color: #ffeead;
+}
+
+.variable {
+  /* color: #0070c1; */
+  color: #ff9da4;
+}
+
+.comment {
+  color: #008000;
+  /* color: #39435b; */
+}
+
+.method {
+  /* color: #795e25; */
+  color: #bbdaff;
+}
+
+.string {
+  /* color: #ab3838; */
+  color: #94e4a9;
+}
+
+.field {
+  /* color: #0010c0; */
+  color: #de97a4;
+}
+
+.success {
+  color: #00a000;
+}
+
+.error {
+  color: #f00000;
+}
+
+.operator {
+  /* color: #000000; */
+  color: #99ffff;
+}
+
+.number {
+  /* color: #00a000; */
+  color: #be4d3e;
+}
+
+.curser {
+  color: #99ffff;
+}
+
+.text {
+  color: #c2c2c2;
+}
